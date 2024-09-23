@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.perfil {
+    video {
+        width: 100%;
+        z-index: -1;
+        position: relative;
+    }
+    .main {
+        position: absolute;
+        left: 680px;
+        top: 200px;
+        .fotinha {
+        width: 150px;
+        border: 5px solid black;
+        border-radius: 50%;
+        }
+        h1 {
+            color: white;
+            font-size: 30px;
+            padding-left: 40px;
+            text-shadow: 2px 5px 10px black;
+            img{
+                width: 20px;
+            }
+        }
+    }
+    .links {
+        position: absolute;
+        left: 465px;
+        top: 500px;
+        a{
+            background-color: black;
+            opacity: 70%;
+            border-radius: 50px;
+            width: 500px;
+            font-size: 25px;
+            padding: 10px 40px;
+            display: flex;
+            text-decoration: none;
+            color: white;
+            margin: 20px 0;
+        }
+        img{
+            width: 40px;
+            opacity: 100%;
+            padding-right: 30px;
+        }
+    }
+    .links a:hover {
+        color: black;
+        background-color: white;
+    }
+}
+
+.stats {
+    background-image: url(assets/fundo.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    h1{
+        text-align: center;
+        font-size: 50px;
+        padding: 50px 0;
+    }
+    table {
+        margin: 0 auto;
+        font-size: 27px;
+        td, th {
+            padding: 10px 20px;
+        }
+        tr:nth-of-type(odd) {
+            background-color: black;
+            opacity: 80%;
+            color: white;
+        }
+        tr:nth-of-type(even) {
+            background-color: white;
+            opacity: 80%;
+        }
+    }
+}
